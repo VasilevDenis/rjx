@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(19, 42, 63);
+}
+
+h1 {
+  text-align: center;
+  color: lightgray
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #1C1B1F;
+  color: lightgray;
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  gap: 10px;
+}
+
+.message {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex: 1;
+}
+
+.time {
+  margin-left: auto;
+}
